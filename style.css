@@ -1,0 +1,85 @@
+        body {
+        display: flex;
+        justify-content: center;
+        background-color: darkblue;
+        font-family: Arial, Helvetica, sans-serif;
+        align-items: center;
+        margin: 10px;
+    }
+    #centerDivFirst {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        border-radius: 12px;
+        background-color: #0d0d5a;
+        width: 500px;
+        height: 550px;
+    }
+    #topTitles {
+        display:flex;
+        width: 450px;
+        justify-content: space-between;
+        border-radius: 12px;
+        margin-bottom: 5px;
+    }
+    #titleDiv, #themesDiv {
+        font-size: 25px;
+        font-weight: bold;
+        border-radius: 12px;
+        color: blanchedalmond;
+    }
+    #resultBox  {
+        display: flex;
+        width: 450px;
+        height: 75px;
+        border-radius: 12px;
+        margin: 20px;
+        background-color: blue;
+    }
+    #inputs {
+        display:flex;
+        flex-wrap: wrap;   
+        justify-content: center;
+        width: 450px;
+        height: 380px;
+        background-color: blue;
+        padding-top: 20px;
+        border-radius: 12px;
+        gap: 10px;
+        margin: 5px;
+    }
+    #inputs .botton {
+        height: 70px;
+        width: 90px;
+        font-size: 65px;
+        border-radius: 12px;
+        background-color: gray;
+    }
+    .bottonDel {
+        font-size: 65px;
+        border-radius: 12px;
+        background-color: #d32f2f;
+
+    }
+    #lastRow {
+        display: flex;
+        padding: 5px;
+        border-radius: 12px;
+        gap: 10px;
+        
+    }
+    .inputsReset {
+        border-radius: 12px;
+        width: 200px;
+        background-color: darkred;
+        font-size: 20px;
+    }
+    .inputsAnswerBtn {
+        border-radius: 12px;
+        width: 200px;
+        font-size: 20px;
+        background-color: lime;
+    }
+
